@@ -140,9 +140,9 @@ button {
 }
 
 button:hover {
-    background-color: white;
-    color: black;
-    transition: all 1s;
+    background-color: #f6980c;
+    box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+    transition: background-color 0.3s ease-in;
 }
 
 input {
@@ -165,7 +165,41 @@ a {
     color: #213053;
 }
 
-header .header__logo:hover{
-    opacity: 50%;
-    transition: all 1s;
+
+/*footer*/
+
+footer {
+    padding: 90px 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__copyright {
+    text-align: center;
+    opacity: 0.5;
+    margin-top: 40px;
+}
+
+.footer__group {
+    margin-right: 80px;
+}
+
+footer h3 {
+    opacity: 0.7;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__links a {
+    margin-bottom: 15px;
 }
