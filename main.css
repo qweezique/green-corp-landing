@@ -55,6 +55,17 @@ body {
 .about__sun—image {
     width: 100px;
     height: 100px;
+    animation: sun_rotate 10s linear infinite;
+}
+
+@keyframes sun_rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .form__container {
@@ -137,7 +148,11 @@ button {
     cursor: pointer;
     box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
     padding: 15px;
+    -webkit-transition: 1s ease; /* Safari and Chrome */
+    -moz-transition: 1s ease; /* Firefox 4 */
+    -o-transition: 1s ease; /* Opera */
 }
+
 
 button:hover {
     background-color: #f6980c;
@@ -151,7 +166,6 @@ input {
 
 select {
     appearance: none;
-    /*outline: none;*/
 }
 
 header a {
