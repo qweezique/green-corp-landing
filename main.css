@@ -3,6 +3,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background-color: white;
 }
 
 .header__logo {
@@ -56,6 +60,7 @@ body {
     width: 100px;
     height: 100px;
     animation: sun_rotate 10s linear infinite;
+    position: absolute;
 }
 
 @keyframes sun_rotate {
@@ -66,6 +71,7 @@ body {
     100% {
         transform: rotate(360deg);
     }
+Я
 }
 
 .form__container {
