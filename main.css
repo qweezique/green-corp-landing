@@ -71,7 +71,7 @@ body {
     100% {
         transform: rotate(360deg);
     }
-Я
+
 }
 
 .form__container {
@@ -222,4 +222,9 @@ footer h3 {
 
 .footer__links a {
     margin-bottom: 15px;
+}
+
+/*mobile*/
+@media (max-width: 320px) {
+
 }
