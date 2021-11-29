@@ -186,9 +186,6 @@ a {
 }
 
 
-.form__container {
-    width: 250px;
-}
 
 
 /*footer*/
@@ -256,6 +253,11 @@ footer h3 {
         box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
         padding: 10px;
 
+    }
+
+
+    .form__container {
+        width: 250px;
     }
 
     .about {
