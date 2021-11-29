@@ -186,6 +186,11 @@ a {
 }
 
 
+.form__container {
+    width: 250px;
+}
+
+
 /*footer*/
 
 footer {
@@ -225,6 +230,116 @@ footer h3 {
 }
 
 /*mobile*/
-@media (max-width: 320px) {
+@media (max-width: 375px) {
+
+    header, body, footer, section, footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+
+    .header__logo {
+        height: 25px;
+    }
+
+    .about__image {
+        width: 140px;
+    }
+
+    .about__sun—image {
+        width: 45px;
+        height: 45px;
+    }
+
+    button {
+        font-size: 15px;
+        box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
+        padding: 10px;
+
+    }
+
+    .about {
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+
+    .about h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .about p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .about button {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .form h1, label, input {
+        font-size: 24px;
+    }
+
+
+    .form {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+
+    .form label {
+        font-size: 15px;
+        font-weight: 200;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .form__group input {
+        font-size: 15px;
+        font-weight: 200;
+        height: 40px;
+    }
+
+    .form__group select {
+        font-size: 15px;
+        font-weight: 200;
+        height: 40px;
+    }
+
+
+    .form p {
+        font-size: 15px;
+    }
+
+    footer {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+
+    .footer__container {
+        display: inline;
+        text-align: center;
+    }
+
+    .footer__group {
+        margin-right: 0;
+    }
+
+    footer h3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .footer__links {
+        display: inline;
+        flex-direction: column;
+    }
+
+    .footer__links a {
+        margin-bottom: 8px;
+    }
 
 }
+
